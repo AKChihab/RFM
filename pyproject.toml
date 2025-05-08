@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rfm-analysis"
+version = "0.1.0"
+description = "End-to-end RFM segmentation pipeline with synthetic data"
+authors = [
+  { name="Chihab", email="akaoui1993@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.23",
+  "sqlalchemy>=2.0",
+  "faker>=18.0",
+  "pytest>=7.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,3 +1,16 @@
+Metadata-Version: 2.4
+Name: rfm-analysis
+Version: 0.1.0
+Summary: End-to-end RFM segmentation pipeline with synthetic data
+Author-email: Chihab <akaoui1993@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.5
+Requires-Dist: numpy>=1.23
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: faker>=18.0
+Requires-Dist: pytest>=7.0
+
 # RFM Customer Segmentation
 
 A reproducible, end-to-end RFM (Recency, Frequency, Monetary) analysis pipeline  
